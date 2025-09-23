@@ -19,6 +19,7 @@ uid = "a6339931-c50a-f8fb-bd7e-8b29fcb1deb990526b7f"
 module = "./src/Checkout.jsx"
 target = "purchase.checkout.footer.render-after"
 
+[[extensions.targeting]]
 module= "./src/ThankYou.jsx"
 target = "purchase.thank-you.footer.render-after"
 
