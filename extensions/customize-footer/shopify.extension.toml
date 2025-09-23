@@ -15,6 +15,7 @@ uid = "a6339931-c50a-f8fb-bd7e-8b29fcb1deb990526b7f"
 # and the file that contains your extension’s source code. Learn more:
 # https://shopify.dev/docs/api/checkout-ui-extensions/latest/extension-targets-overview
 
+#[START custom-footer.config-ext-point]
 [[extensions.targeting]]
 module = "./src/Checkout.jsx"
 target = "purchase.checkout.footer.render-after"
@@ -22,6 +23,7 @@ target = "purchase.checkout.footer.render-after"
 [[extensions.targeting]]
 module= "./src/ThankYou.jsx"
 target = "purchase.thank-you.footer.render-after"
+#[END custom-footer.config-ext-point]
 
 [extensions.capabilities]
 # Gives your extension access to directly query Shopify’s storefront API.

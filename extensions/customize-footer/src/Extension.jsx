@@ -1,6 +1,7 @@
 export default function Extension() {
   const {storefrontUrl} = shopify.shop;
 
+  // [START custom-footer.render]
   return (
     <s-grid
       alignItems="center"
@@ -66,4 +67,5 @@ export default function Extension() {
       </s-stack>
     </s-grid>
   );
+  // [END custom-footer.render]
 }
