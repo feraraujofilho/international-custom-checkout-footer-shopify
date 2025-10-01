@@ -11,3 +11,4 @@ To run this app locally, clone the repository, and then follow our [Work on an e
 ## Contributing
 
 This repository is for example purposes only. It doesn't accept issues or contributions.
+# international-custom-checkout-footer-shopify
