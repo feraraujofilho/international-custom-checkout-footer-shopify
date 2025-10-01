@@ -13,6 +13,14 @@ This enhanced version uses Shopify's localization APIs to automatically update f
 - **Country-Specific Links**: Different footer links for US, Germany (DE), and default markets
 - **Preact Implementation**: Built with Preact for optimal performance
 
+## Demo
+
+Watch the extension in action as the footer content changes based on the selected delivery country:
+
+[🎥 View Demo Video](https://screenshot.click/01-10-77985-39246.webm)
+
+The demo shows how the footer links automatically update when changing the delivery address between different countries.
+
 ## Original Project
 
 This project is based on Shopify's example app that uses [checkout UI extensions](https://shopify.dev/docs/api/checkout-ui-extensions) to build a custom footer using Polaris web components.
